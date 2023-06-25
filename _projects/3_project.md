@@ -2,7 +2,7 @@
 layout: page
 title: BSc Thesis
 description: Parallel computing techniques for advection diffusion probles
-img: assets/img/bscthesis/immagine_iniziale.png
+img: 
 importance: 2
 category: thesis
 ---

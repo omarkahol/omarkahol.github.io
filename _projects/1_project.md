@@ -2,7 +2,7 @@
 layout: page
 title: MSc Thesis
 description: Scaling Relations for the Geometry of Wire-to-Airfoil Atmospheric Ionic thrusters
-img: assets/img/mscthesis/ehd.jpg
+img: 
 importance: 1
 category: thesis
 ---

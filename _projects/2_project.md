@@ -2,7 +2,7 @@
 layout: page
 title: ASP Thesis
 description: REGIM, analysis, development and testing of an electromagnetic regenerative shock absorber.
-img: assets/img/asp/regim.jpg
+img: 
 importance: 1
 category: thesis
 ---
