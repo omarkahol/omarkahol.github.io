@@ -1,0 +1,67 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Omar Kahol
+    - name: Date of Birth
+      value: 14th September 1998
+    - name: Languages
+      value: English, Italian
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Alta Scuola Politecnica 
+      institution: Politecnico di Milano, Politecnico di Torino
+      specialization: Honour's Programme, Double Degree
+      year: 2021 - 2023
+      description:
+        - Courses - Dynamics of Innovation, Design methods and processes, Decision Making, The Intangible Matter of Places, Communication Skills
+        - Project - REGIM, analysis, development and testing of an electromagnetic regenerative shock absorber.
+    - title: MSC, Aeronautical Engineering
+      institution: Politecnico di Milano, Italy
+      specialization: Aerodynamics
+      year: 2020 - 2023
+      description:
+        - Grade - 110 cum Laude
+        - GPA - 29.75/30
+        - Thesis - Scaling Relations for the Geometry of Wire‑to‑Airfoil Atmospheric Ionic Thrusters
+    - title: BSC, Aerospace Engineering
+      institution: Università degli Studi di Padova, Italy
+      year: 2017 - 2020
+      description:
+        - Grade - 110 cum Laude
+        - GPA - 29.14/30
+        - Thesis - Scaling Relations for the Geometry of Wire‑to‑Airfoil Atmospheric Ionic Thrusters
+
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Teacher
+      institution: GoStudent
+      year: 2021 - 2023
+
+    - title: Internship ‑ HVAC Engineer
+      institution: Vertiv, Tognana, Padova
+      year: 2018 - 2019
+      description:
+        - 6 months
+        - As part of my role, I utilize company software to perform thermodynamic calculations on the performance of HVAC. machines. This involves analyzing the thermodynamic, hydraulic, aeraulic, acoustic, and electric performance of the machines
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: In-flight incing
+      items: 
+        - CFD
+        - Experiments
+        - Prediction
+    - title: Uncertainty Quantification
+      items:
+        - Bayesian Methods
+        - Spectral Methods
+    - title: Electrohydrodynamics
+      items:
+        - Corona thrusters
+        - EHD flow
