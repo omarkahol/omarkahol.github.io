@@ -62,7 +62,7 @@ $$
 
 The algebraic equation that describes the current density as a function of the dimensionless voltage and the dimensionless velocity ratio has a rather complex closed-form solution, which is crucial for understanding the behavior of the system since the dimensionless current is equal to the power coefficient. This solution is conveniently presented in the next figure
 
-{% include figure.html path="assets/img/posts/currdensConv.jpg" title="j" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/posts/edh_scaling/currdensConv.jpg" title="j" class="img-fluid rounded z-depth-1" %}
 
 Upon examining the curves, it becomes apparent that the dimensionless current increases
 significantly as the effect of the convective term is amplified. This increase can be at-
@@ -83,14 +83,14 @@ $$
 
 This integral admits a, rather complex, closed form solution, which is not reported for brevity.
 
-{% include figure.html path="assets/img/posts/CT.jpg" title="CT" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/posts/ehd_scaling/CT.jpg" title="CT" class="img-fluid rounded z-depth-1" %}
 
 The figure above reports the thrust coefficient functional dependence on the dimensionless voltage for different values of the convective term, $$R_v$$. It is possible that the behaviour of this value is similar to the case of the thruster in still air as it exhibits similar low and high voltage limits. Increasing the convective term increases the thrust coefficient but this increase is smaller if compared to the power coefficient; moreover, the actual thruster suffers from the addition of aerodynamic drag which increases as the mean flow velocity is increased. 
 
 ---
 The thrust to power coefficient is defined as the ration of the thrust coefficient and the power coefficient. The power coefficient asymptotic values increases significantly, being equal to the current density coefficient, as the mean flow value increases whereas the thrust coefficient undergoes a less significant increase.
 
-{% include figure.html path="assets/img/posts/CTP.jpg" title="CTP" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/posts/ehd_scaling/CTP.jpg" title="CTP" class="img-fluid rounded z-depth-1" %}
 
 The figure shows the behaviour of the thrust to power coefficient as a function of the dimensionless voltage and for different convective term values. It is possible to conclude that the 1D model predicts a substantial loss in the thrust to power. This is also worsened by the presence of aerodynamic drag which reduces the generated thrust.
 

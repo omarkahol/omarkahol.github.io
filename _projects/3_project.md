@@ -29,4 +29,4 @@ The FE approach, implemented in the deal.ii library, was then used to solve the 
 You can have a look at the thesis, which is in italian.
 
 ---
-<embed src="../../assets/img/bscthesis/tesi.pdf" width="100%" height="1000"> 
+<embed src="../../assets/pdf/projects/bscthesis/tesi.pdf" width="100%" height="1000"> 

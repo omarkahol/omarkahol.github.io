@@ -41,13 +41,13 @@ Lorenzo Mai, Physics Engineering, Politecnico di Milano
 Omar Kahol, Aeronautical Engineering, Politecnico di Milano
 Stefano Cerutti, Electronic Engineering, Politecnico di Torino
 
-<embed src="../../assets/img/asp/REGIM_poster.pdf" width="100%" height="1000"> 
+<embed src="../../assets/pdf/projects/asp/REGIM_poster.pdf" width="100%" height="1000"> 
 
 And download the final report
 
 ---
 <header class="post-header">
-            <h1 class="post-title">Thesis <a href="../../assets/img/asp/REGIM.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
+            <h1 class="post-title">Thesis <a href="../../assets/pdf/projects/asp/REGIM.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
 </h1>
             <p class="post-description"></p>
           </header>
