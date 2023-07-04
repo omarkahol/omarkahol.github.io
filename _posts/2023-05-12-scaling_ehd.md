@@ -62,7 +62,7 @@ $$
 
 The algebraic equation that describes the current density as a function of the dimensionless voltage and the dimensionless velocity ratio has a rather complex closed-form solution, which is crucial for understanding the behavior of the system since the dimensionless current is equal to the power coefficient. This solution is conveniently presented in the next figure
 
-{% include figure.html path="assets/img/posts/edh_scaling/currdensConv.jpg" title="j" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/posts/ehd_scaling/currdensConv.jpg" title="j" class="img-fluid rounded z-depth-1" %}
 
 Upon examining the curves, it becomes apparent that the dimensionless current increases
 significantly as the effect of the convective term is amplified. This increase can be at-
@@ -95,5 +95,96 @@ The thrust to power coefficient is defined as the ration of the thrust coefficie
 The figure shows the behaviour of the thrust to power coefficient as a function of the dimensionless voltage and for different convective term values. It is possible to conclude that the 1D model predicts a substantial loss in the thrust to power. This is also worsened by the presence of aerodynamic drag which reduces the generated thrust.
 
 ---
----
 These results are of critical importance for any future application of this technology. A reduction of the total thrust to power means that, for a given power requirement, the thruster will be able to generate less thrust as the velocity increases greatly limiting the speed of ionic thrusters.
+---
+
+It is useful to note that the exact same results are obtained by studing a similar problem, i.e. the one of a thruster in variable atmospheric conditions. In this case, however, the scaling to be followed is the one indicated by my article
+
+<div class="publications">
+  <h2 class="year">2023</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/elsat2023.gif" class="preview z-depth-1 rounded" width="auto" height="auto" alt="elsat2023.gif" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="Kahol2023" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Scaling relations for the geometry of wire-to-airfoil atmospheric ionic thrusters</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Omar Kahol</em>, Marco Belan, Mattia Pacchiani, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Domenico Montenero' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Journal of Electrostatics</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+          </div>
+          
+          <div class="badges">
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="https://doi.org/10.1016/j.elstat.2023.103815"></span>
+              <span class="__dimensions_badge_embed__" data-doi="https://doi.org/10.1016/j.elstat.2023.103815" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+          </div>
+
+          <!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">Kahol2023</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Scaling relations for the geometry of wire-to-airfoil atmospheric ionic thrusters}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{Journal of Electrostatics}</span><span class="p">,</span>
+  <span class="na">volume</span> <span class="p">=</span> <span class="s">{123}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{103815}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{0304-3886}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1016/j.elstat.2023.103815}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://www.sciencedirect.com/science/article/pii/S0304388623000244}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Kahol, Omar and Belan, Marco and Pacchiani, Mattia and Montenero, Domenico}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li></ol>
+</div>
+
+In this case, however, 
+
+$$
+R_v = \dfrac{1}{\mu_q}\sqrt{\dfrac{\epsilon_0}{\rho}}
+$$
+
+An increase in $$R_v$$ can be obtained by a decrease the in the air density or in the ion mobility. This will produce the same effects described above. 

@@ -24,7 +24,7 @@ The codes were implemented in C++ in both 1 and 2 spacial dimensions.
 
 The FE approach, implemented in the deal.ii library, was then used to solve the problem in 2D and 3D using also mesh adaptation techniques. 
 
-{% include figure.html path="assets/img/bscthesis/3d.png" title="solution" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/projects/bscthesis/3d.png" title="solution" class="img-fluid rounded z-depth-1" %}
 
 You can have a look at the thesis, which is in italian.
 
