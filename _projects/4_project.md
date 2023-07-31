@@ -46,9 +46,9 @@ We can integrate the equations in the numerical domain to get a system of nonlin
 The code was tested using different mixtures and post-shock conditions and is available on GitHub
 
 <div class="repo p-2 text-center">
-  <a href="https://github.com/omi14098/hyShockpp" rel="external nofollow noopener" target="_blank">
-    <img class="repo-img-light w-100" alt="omi14098/hyShockpp" src="https://github-readme-stats.vercel.app/api/pin/?username=omi14098&amp;repo=hyShockpp&amp;theme=default&amp;show_owner=false">
-    <img class="repo-img-dark w-100" alt="omi14098/hyShockpp" src="https://github-readme-stats.vercel.app/api/pin/?username=omi14098&amp;repo=hyShockpp&amp;theme=dark&amp;show_owner=false">
+  <a href="https://github.com/omarkahol/hyShockpp" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="omarkahol/hyShockpp" src="https://github-readme-stats.vercel.app/api/pin/?username=omarkahol&amp;repo=hyShockpp&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="omarkahol/hyShockpp" src="https://github-readme-stats.vercel.app/api/pin/?username=omarkahol&amp;repo=hyShockpp&amp;theme=dark&amp;show_owner=false">
   </a>
 </div>
 
