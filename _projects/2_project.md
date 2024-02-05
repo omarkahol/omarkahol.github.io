@@ -1,81 +1,54 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: ASP Thesis
+description: REGIM, analysis, development and testing of an electromagnetic shock absorber.
+img: assets/img/projects/asp/thumbnail.png
+importance: 1
+category: thesis
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+A damper is a device that suppresses vibrations and dissipates their energy in the form of heat. The aim of the REGIM project is to bring an innovative regenerative damper into the agricultural sector. Regenerative dampers recover the kinetic energy of the vibrations and convert it into readily usable electric energy.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+REGIM is part of a bigger initiative driven by Frandent Group, an Italian company specialized in the production of agricultural machines. Frandent promotes the continuous improvement of its machines through equipment that requires lower energy consumption and increases productivity. REGIM aims to design a regenerative damper that could substitute the conventional ones already installed on the agricultural machines, bringing the added benefit of energy recovery, thus increasing fuel efficiency.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
+<embed src="https://www.youtube-nocookie.com/embed/YUNflGBTM7E" width="100%" height="400"> 
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+The project involves the optimization of the device with regards to several physical phenomena (multiphysics) and the design of the electrical circuit to interface the device with a battery (power electronics).
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The integration of a regenerative damper on agricultural machinery supports the innovation wave of sustainable mechanization and electrification. In this regard, the project acts towards the global effort of the Sustainable Development Goals by fostering the Goals of Zero Hunger (2), Affordable and Clean Energy (7) and Responsible Consumption and Production (12).
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+<b>Principal Academic Tutor</b>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Giovanni Maizza, Department of Applied Science and Technology, Politecnico di Torino
 
-{% raw %}
+<b>Academic Tutor</b>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+Luigi Piegari, Department of Electronics, Information and Bioengineering, Politecnico di Milano
+Umid Jamolov, Department of Applied Science and Technology, Politecnico di Torino
 
-{% endraw %}
+<b>External Institution</b>
+
+Frandent Group SRL
+
+<b>Team members</b>
+
+Andrea Proietti, Mechatronic Engineering, Politecnico di Torino
+Duc Tan Tran, Electronic Engineering, Politecnico di Torino
+Francesca Stobbione, Production Engineering, Politecnico di Torino
+Lorenzo Mai, Physics Engineering, Politecnico di Milano
+Omar Kahol, Aeronautical Engineering, Politecnico di Milano
+Stefano Cerutti, Electronic Engineering, Politecnico di Torino
+
+<embed src="../../assets/pdf/projects/asp/REGIM_poster.pdf" width="100%" height="1000"> 
+
+And download the final report
+
+---
+<header class="post-header">
+            <h1 class="post-title">Thesis <a href="../../assets/pdf/projects/asp/REGIM.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
+</h1>
+            <p class="post-description"></p>
+          </header>
+---

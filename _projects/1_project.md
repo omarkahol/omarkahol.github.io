@@ -1,81 +1,46 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Master Thesis
+description: Scaling Relations for the Geometry of Wire-to-Airfoil Atmospheric Ionic thrusters
+img: assets/img/projects/mscthesis/thumbnail.png
 importance: 1
-category: work
-related_publications: true
+category: thesis
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+My master thesis focused on the experimental multiparameter optimization of atmospheric ionic thrusters, which are a promising alternative to traditional propulsive units. These thrusters utilize two electrodes, with one being a small wire and the other an aerodynamic shape, to create a strong electric field that ionizes the air surrounding them. The resulting plasma is propelled by the electric field towards the airfoil, or collector, which generates thrust by transferring kinetic energy to the surrounding air. Ionic thrusters are environmentally friendly, electric, and contain no moving parts, making them an attractive option for propulsion systems.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+{% include figure.liquid path="assets/img/projects/mscthesis/ehd.jpg" title="EHD FLOW" class="img-fluid rounded z-depth-1" %}
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Despite successful demonstrations of this technology in recent years (the most notable one being an airplane developed at MIT), there is still much to be understood about its behaviour, particularly in relation to the influence of geometrical parameters such as electrode distance and airfoil shape. Additionally, a lack of a proper dimensionless model makes it difficult to understand how these parameters interact with one another.
+To address these issues, the thesis employed a mathematical analysis of electro-hydrodynamics equations under non-thermal equilibrium discharges. A dimensionless formulation was then used to extract reference quantities and dimensionless numbers for geometric, electric, and aerodynamic parameters. A one-dimensional model was then developed to further investigate the behaviour of these quantities.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+An extensive experimental campaign was conducted to study different geometries and airfoil shapes under varying voltages to extract dimensionless numbers and their functional relationships with respect to dimensionless parameters. A novel experimental setup was design and realized. This setup can host collectors of different shapes and sizes. It can also adjust several geometric parameters allowing for a multi-parameteric experimental investigation. Experimental measurement techniques were employed to measure the high voltages and discharge currents and the aerodynamic forces created by the thruster.
+The results of the optimization and experimental investigation are promising, as they provide dimensionless methods and optimized geometries for atmospheric ionic thrusters. Overall, this thesis contributes to a better understanding of the behavior of atmospheric ionic thrusters and provides valuable insights for their further development and implementation in practical applications.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Have a look at the presentation of my thesis
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+<embed src="../../assets/pdf/projects/mscthesis/Presentazione_Laurea.pdf" width="100%" height="1000"> 
 
-{% raw %}
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+And download the project documents
 
-{% endraw %}
+---
+<header class="post-header">
+            <h1 class="post-title">Thesis <a href="../../assets/pdf/projects/mscthesis/Tesi_Magistrale.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
+</h1>
+            <p class="post-description"></p>
+          </header>
+---
+<header class="post-header">
+            <h1 class="post-title">Article<a href="../../assets/img/pdf/projects/mscthesis/Tesi_Magistrale_Articolo.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
+</h1>
+            <p class="post-description"></p>
+          </header>
+---
+<header class="post-header">
+            <h1 class="post-title">Executive Summary <a href="../../assets/pdf/projects/mscthesis/Executive_Summary_Tesi_Magistrale.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>
+</h1>
+            <p class="post-description"></p>
+          </header>
+---

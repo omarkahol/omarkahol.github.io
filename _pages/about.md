@@ -2,25 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Working at <a href='https://www.inria.fr/en/platon'>INRIA's Platon Team</a> as a double PhD student in applied mathematics between <a href='https://www.polytechnique.edu'>Ecole Polytechnique</a> and <a href='https://www.polimi.it'>Politecnico di Milano</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Centre de Mathématiques Appliquées</p>
+    <p>Île-de-France, Ecole Polytechnique</p>
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I graduated in Aeronautical Engineering at Politecnico di Milano with a specialization in aerodynamics and having completed an experimental thesis on ionic thrusters. 
+Additionally, I took part in the XVII cycle <a href='https://asp-poli.it'>Alta Scuola Politecnica</a> which is a multisciplinary double degree that completes the master track with horizontal skills such as innovation management, decision making and communication. During these two years, I was part of the REGIM project which aimed at designing and testing an electromagnetic shock absorber with power regeneration capabilities.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently working at INRIA as a double PhD student affiliated with the Marie Skłodowska-Curie Actions doctoral network <a href='https://traces-project.eu'>TRACES</a>. This is a project that aims at providing high-level training in the field of in-flight icing, a complex multidisciplinary field. My research project will lean more on the mathematical side as it aims to provide a robust procedure to quantify the model error for ice accretion models using state-of-the-art Uncertainty Quantification techniques. 

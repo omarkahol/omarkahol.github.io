@@ -1,61 +1,86 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Omar Kahol",
+    "label": "Double PhD candidate",
+    "image": "assets/img/prof_pic.jpg",
+    "email": "omarkahol@duck.com",
+    "phone": "(+33) 7 49 48 93 97",
+    "url": "omarkahol.github.io",
+    "summary": "Fluid, fits everywhere (if allowed to flow).",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "1, rue Honoréd'Orves",
+      "postalCode": "91120",
+      "city": "Palaiseau",
+      "countryCode": "FR",
+      "region": "Île-de-France"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "OmarKahol",
+        "url": "https://twitter.com/OmarKahol"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "INRIA",
+      "position": "PhD student",
+      "url": "https://www.inria.fr/en/platon",
+      "startDate": "2023-09-15",
+      "endDate": "2026-12-31",
+      "summary": "Doing research on Bayesian techniques for statistical inference.",
+      "highlights": ["UQ","Bayesian techniques","inference"]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+  // "volunteer": [
+  //   {
+  //     "organization": "People's Climate March",
+  //     "position": "Lead Organizer",
+  //     "url": "https://example.com",
+  //     "startDate": "2014-04-01",
+  //     "endDate": "2015-07-01",
+  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+  //   }
+  // ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Alta Scuola Politecnica",
+      "location": "Milano, Italy",
+      "url": "https://www.asp-poli.it/",
+      // "area": "Software Development",
+      "studyType": "Honours degree",
+      "startDate": "2022-12-01",
+      "endDate": "2023-02-01",
+      //"score": "10",
+      "courses": ["Dynamics of Innovation, Design methods and processes, Decision Making, The Intangible Matter of Places, Communication Skills"],
+      "thesis": "REGIM, analysis, development and testing of an electromagnetic regenerative shock absorber."
+    },
+    {
+      "institution": "Politecnico di Milano",
+      "location": "Milano, Italy",
+      "url": "https://www.polimi.it/",
+      // "area": "Software Development",
+      "studyType": "Master's degree, Aeronautical Engineering",
+      "startDate": "2020-09-01",
+      "endDate": "2023-05-04",
+      "score": "110 cum laude",
+      "specialization": ["Aerodynamics"],
+      "thesis": "Scaling relations for the geometry of wire-to-airfoil atmospheric ionic thrusters"
+    },
+    {
+      "institution": "Università degli studi di Padova",
+      "location": "Padova, Italy",
+      "url": "https://www.unipd.it/",
+      // "area": "Software Development",
+      "studyType": "Bachelor's degree, Aerospace Engineering",
+      "startDate": "2017-09-01",
+      "endDate": "2020-07-17",
+      "score": "110 cum laude",
+      "thesis": "Parallel computating techniques for advection diffusion problems."
     }
+
   ],
   "awards": [
     {
