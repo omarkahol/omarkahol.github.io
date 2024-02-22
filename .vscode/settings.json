@@ -1,0 +1,14 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_posts/2024-02-22-mcmc_thinning.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "_posts/2023-05-12-ehd.md"
+        }
+    ]
+}
