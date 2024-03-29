@@ -135,7 +135,7 @@ $$
 \end{equation}
 $$
 
-We now compute the ratio between the sample variance and $$L\frac{\sigma^2}{n}$$ which has the dimensionality of a variance and does not depend on the thinning parameter, $$s$$,
+We now compute the ratio between the sample variance and $$L\frac{\sigma^2}{n}$$ which has the dimensionality of variance and does not depend on the thinning parameter, $$s$$,
 
 $$
 \begin{equation}
