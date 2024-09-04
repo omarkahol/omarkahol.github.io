@@ -55,4 +55,3 @@ The code was tested using different mixtures and post-shock conditions and is av
 You can also have a look at the project presentation, which includes all the relevant details and derivations
 
 <embed src="../../assets/pdf/projects/hyshock++/Hypersonic_Flows.pdf" width="100%" height="1000"> 
-
