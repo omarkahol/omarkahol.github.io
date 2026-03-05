@@ -1,7 +1,7 @@
 ---
 layout: page
 title: CMP++
-description: A library for the Bayesian calibration of computer codes using sequential and adaptive approaches.
+description: A C++ library for Bayesian calibration of computer codes, with practical workflows for full, sequential, and modular inference.
 img: assets/img/projects/cmp/logo.png
 importance: 1
 category: phd
@@ -17,13 +17,13 @@ category: phd
 ---
 <header class="post-header">
             <h1 class="post-title">Technical documentation <a href="../../assets/pdf/projects/cmp/cmp.pdf" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a></h1>
-            <p class="post-description">The document containing the technical documentation for the library, install instructions and a test case.</p>
+                        <p class="post-description">This document contains the library technical reference, installation steps, and a complete test case.</p>
           </header>
 ---
 
-CMP++ is a c++ library for the calibration of computer codes using Bayesian methods. It supports the use of a full bayesian solution, sequential approaches and modular approaches. In the following sections I will introduce different aspects of the calibration problem and show how the CMP method works.
+CMP++ is a C++ library for Bayesian calibration of deterministic computer models in the presence of measurement and model-form errors. It implements complete, sequential, and modular workflows so users can balance statistical rigor and computational cost depending on the application.
 
-The following section briefly discusses the Bayesian calibration framework.
+The following section summarizes the Bayesian calibration framework used in the technical documentation.
 
 $$
 \newcommand{\cmp}{\text{CMP}}
