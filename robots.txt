@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://omarkahol.github.io/sitemap.xml
