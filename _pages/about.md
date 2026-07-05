@@ -2,25 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Working at <a href='https://www.inria.fr/en/platon'>INRIA's Platon Team</a> as a double PhD candidate in applied mathematics between <a href='https://www.polytechnique.edu'>Ecole Polytechnique</a> and <a href='https://www.polimi.it'>Politecnico di Milano</a>.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
 
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
+news: false # includes a list of news items
+latest_posts: false # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I graduated in Aeronautical Engineering at Politecnico di Milano with a specialization in aerodynamics and having completed an experimental thesis on ionic thrusters.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Additionally, I took part in the XVII cycle <a href='https://asp-poli.it'>Alta Scuola Politecnica</a> which is a multisciplinary double degree that completes the master track with horizontal skills such as innovation management, decision making and communication.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am currently working at INRIA as a double PhD student affiliated with the Marie Skłodowska-Curie Actions doctoral network <a href='https://traces-project.eu'>TRACES</a>. Throughout my PhD, I have mastered many topics in Machine Learning and Data Analysis.
+
+Thanks to my education, my expertise lies at the intersection between classical engineering (experimental methods and numerical techniques) and Machine Learning (surrogate modeling and uncertainty quantification). My main skill is the ability to learn new skills, which I developed by working in multidisciplinary teams and projects from different fields.
+
+I’m a hiking enthusiast, a passion passed down from my grandfathers and rooted in the beautiful Friuli region where I was born. In 2024 I was among the founders of the project <a href='https://linktr.ee/randocite'>Rando Cité</a>, founded by Cité Internationale Universitaire de Paris. The goal of the project was to promote hiking in the region of Ile-de-France and an active life style. We organise free hikes during weekends.
